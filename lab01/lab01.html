@@ -23,11 +23,12 @@
 </head>
 
 <body>
-
-    <h1 style="font-family:courier;"><i><b>&nbsp; &nbsp;My Site</b></i></h1>
+    
+    <marquee bgcolor="##0066FF" direction="lefe" scrollamount="12" width="100%"><h1 style="font-family:courier;"><i><b>Welcome to My Site</b></i></h1></marquee>
     <hr class="new4" align = "left" width="100%">
     <table style="width:65%">
         <tr>
+          <h2><b>&nbsp; &nbsp;นักคณิตศาสตร์โอลิมปิก<b></h2>
           <th><p>&nbsp; &nbsp;"พิพิชชญะ ศรีดำ" เป็นตัวแทนประเทศไทยคนแรกและเป็นหนึ่งในไม่กี่คน
               ในโลกที่สามารถคว้าเหรียญทองคณิตศาสตร์โอลิมปิกระหว่างประเทศมาได้ก่อนอายุ 15 ปี 
               เบื้องหลังความสำเร็จของเขาไม่ได้เกิดจากความฉลาดหลักแหลมเพียงอย่างเดียว แต่ความหลงใหลในตัวเ                                                                                                          
@@ -40,12 +41,13 @@
               สามารถคว้า 1 เหรียญทอง 3 เหรียญเงิน และ 2 
               เหรียญทองแดงจากการสอบผ่านระบบออนไลน์เมื่อวันที่ 19-20 ก.ค. ที่ผ่านมาได้</p></th>
               <hr>
-            </th>
+            </tr>
         </tr>
         <tr style="height:200px">
 
             <td>
                 <h2><b>&nbsp; &nbsp;พิพิชชญะ ศรีดำ<b></h2>
+                <hr>
                 <hr class="new4" align = "left" width="70%">
                 <img src ="B.jpg" width =" " height=" ">
                 <br>
@@ -96,6 +98,9 @@
 
                 <!-- search -->
                 <h4 style="font-family: courier;" align = "center"><p><b>This a search engine</b></p></h4>
+
+                &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;  &nbsp;<input type="text" id="name" name="user_name" >
+                <input type="submit" value="search"
                 
 
             
@@ -135,10 +140,63 @@
               <td>&nbsp; &nbsp;&nbsp; &nbsp;</td>
               <td>&nbsp; &nbsp;&nbsp; &nbsp;</td>
             </tr>
+        </table>
        
 
+    
+ 
+            <h2><b>&nbsp; &nbsp;กรอกฟรอมที่นี่<b></h2>
+            <hr class="new4" align = "left" width="70%">
 
-        
+            <form action="/my-handling-form-page" method="post">
+                <div>
+                <label for="name">Name: &nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="text" id="name" name="user_name">
+                </div>
+                <br>
+                <div>
+                <label for="mail">E-mail: &nbsp; &nbsp;</label>
+                <input type="email" id="mail" name="user_mail">
+                </div>
+                <br>
+                <div>
+                <label for="msg">Message:</label>
+                <textarea id="msg" name="user_message"></textarea>
+                </div>
+            </form>
+
+                <form action = "save.php" method="post">
+                    <br />
+                    Password : <input type ="password" name="Password">
+                    <br />
+                Gender :
+                <input type="radio" name ="gender" value="male"> Male   
+                <input type="radio" name ="gender" value="female" checked> Female   
+                <input type="radio" name ="gender" value="other"> other 
+                
+                I play:
+                <input type="checkbox" name ="spot1" value="Swim"> Swim 
+                <input type="checkbox" name ="spot1" value="Bike"> Bike
+                <input type="checkbox" name ="spot1" value="Run"> Run
+                <br />
+                Select List:
+                <select name ="cars">
+
+                    <option value ="?"></option>---Select one--- </option>
+                    <option value ="Toyota"></option>Toyota </option>
+                    <option value ="Mazda"></option>Mazda </option>
+                    <option value ="Ford"></option>Ford</option>
+                    <option value ="Mitsubishi"></option>Mitsubishi</option>
+                    <option value ="other"></option>other </option>
+
+                </select>  
+                <br />
+                <p>
+                    <input type="submit" value="submit"
+                </p>
+            </form>
+
+ 
 
   
      
