@@ -1,0 +1,18 @@
+@import 'https://fonts.googleapis.com/css?family=Kanit|Prompt';
+
+
+h1{
+    font-family: "Oswald"
+}
+body {
+    font-family: "Open Sans"
+}
+.s1{
+    font-family: 'Prompt',san-serif;
+    font-family: 'Kanit',san-serif;
+}
+
+.l1{
+    border: 1px solid rgb(0, 0, 0);
+    border-collapse: collapse;
+ }
