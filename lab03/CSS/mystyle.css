@@ -1,9 +1,9 @@
 @import 'https://fonts.googleapis.com/css?family=Kanit|Prompt';
 
-body{
+body.g1{
 
     font-family :arial;
-    background-color: rgb(251, 251, 251);
+    background-color: rgb(243, 221, 221);
 }
 
 h1.s3{
@@ -38,6 +38,10 @@ table, th, td{
 .s6{
     font-family: "Oswald"
 }
+#s7{
+    font-family: "Raleway", sans-serif
+}
+
 
 
 /* Background */
