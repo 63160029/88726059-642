@@ -56,6 +56,7 @@
                                 <th scope='col'>#</th>
                                 <th scope='col'>First name</th>
                                 <th scope='col'>Last name</th>
+                                <th scope='col'>Email</th>
                                 <th scope='col'>Last updated</th>
                                 <th scope='col'></th>
                             </tr>
@@ -71,6 +72,7 @@
                 $table.= "<td>" . $i++ . "</td>";
                 $table.= "<td>$row->first_name</td>";
                 $table.= "<td>$row->last_name</td>";
+                $table.= "<td>$row->email_id</td>";
                 $table.= "<td>$row->last_update</td>";
                 $table.= "<td>";
                 $table.= "<a href='editactor.php?id=$row->actor_id'><span class='glyphicon glyphicon-pencil' aria-hidden='true'></span></a>";
